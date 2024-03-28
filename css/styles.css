@@ -5,14 +5,52 @@ color: #434455;
 background: #fff; 
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;   
+  }
+
 ul {
-list-style-type: none;   
+list-style-type: none;  
+margin-top: 0;
+margin-bottom: 0;   
 }
 
 a {
  text-decoration: none;
 }
+
+button {
+  cursor: pointer;
+ }
+
+ address {
+  font-style: normal;
+ }
+
+.container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+ }
+
+ header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+ }
+
+ section {
+
+ }
+
+
+
 /* header */
+.header-main {
+  padding-bottom: 24px;
+ }
+
 .header-name-logo {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -39,6 +77,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
+
 }
 
 .header-menu:hover, 
@@ -55,15 +94,25 @@ color: #2e2f42;
 color: #404bbf;
 }
 
+.header-menu-nav {
+
+}
+
 address {
 font-style: normal;
+justify-content: flex-end;
 }
+
+.header-address-menu {
+
+  }
 
 .header-address-item {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+
 }
 
 .header-address-item:hover, 
@@ -74,6 +123,11 @@ color: #404bbf;
 /* main */
 /* section-1 */
 .page {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.page-wrap {
 background: #2e2f42;
 }
 
@@ -84,6 +138,9 @@ text-align: center;
 line-height: 1.07;
 letter-spacing: 0.02em;
 color: #fff;
+
+max-width: 496px;
+margin: 0 auto;
 }
 
 .page-button { 
@@ -94,6 +151,9 @@ letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
 background: #4d5ae5;
+
+max-width: 169px;
+margin: 0 auto;
 }
 
 .page-button:hover, 
@@ -103,6 +163,8 @@ background-color: #404BBF;
 
 /* section-2 */
 .feature {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -113,6 +175,10 @@ clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
   }
+
+  .feature-item {
+max-width: 264px;
+}
 
 .feature-subtitle {
 font-weight: 500;
@@ -132,7 +198,10 @@ color: #434455;
 /* section-3 Our Team*/
 .team {
 background: #f4f4fd;
+padding-top: 120px;
+padding-bottom: 120px;
 }
+
 .team-name {
 font-weight: 700;
 font-size: 36px;
@@ -145,6 +214,8 @@ color: #2e2f42;
 
 .team-page {
 background: #fff;
+
+max-width: 264px;
 }
 
 .team-page-photo {
@@ -165,6 +236,15 @@ color: #434455;
 }
 
 /* section-4 Our Portfolio */
+.portfolio-main {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-page {
+max-width: 360px;
+}
+
 .portfolio-name {
 font-weight: 700;
 font-size: 36px;
@@ -191,9 +271,15 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.potfolio-border {
+  border: initial;
+  }
+
 /* Footer */
 .footer-page {
 background: #2e2f42;
+
+width: 1440px;
 }
 
 .footer-logo {
