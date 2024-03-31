@@ -84,9 +84,7 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
-display: flex;
-border-bottom: 1px solid #e7e9fc;
-margin-right: 76px 
+display: flex; 
 }
 
 .header-menu {
