@@ -55,7 +55,7 @@ margin: 0 auto;
 /* header */
 .header-main {
 display: flex;
-flex-grow: 1;
+flex-grow: 3;
 justify-content: space-between;
 align-items: center;
 }
