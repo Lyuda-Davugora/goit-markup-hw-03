@@ -219,7 +219,7 @@ gap: 24px;
 }
 
 .feature-item {
-width: calc((100% - 2px) / 4);
+calc((100% - 3 * 24px) / 4)
 }
 
 .feature-item:last-child {
