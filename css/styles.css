@@ -197,12 +197,17 @@ padding-bottom: 120px;
 }
 
 .visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
 margin: -1px;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+border: 0;
+padding: 0;
+  
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 .feature-list {
@@ -210,11 +215,15 @@ display: flex;
 padding-left: 24px;
 padding-right: 24px;
 display: flex;
-gap: 8px;
-  }
+gap: 24px; 
+}
 
 .feature-item {
 width: calc((100% - 2px) / 4);
+}
+
+.feature-item:last-child {
+margin-right: 0;
 }
 
 .feature-subtitle {
@@ -277,7 +286,8 @@ background: #fff;
 gap: 24px;
 }
 
-.team-page:last-child {
+.team-page:
+{
 margin-bottom: 0;
 }
 
