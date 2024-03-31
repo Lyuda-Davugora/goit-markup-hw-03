@@ -133,13 +133,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 align-items: center;
-}
-
-.header-address-item 1 {
 margin-right: 40px;
 }
 
-.header-address-item 2 {
+.header-address-item:last-child {
 margin-right: 0;
 }
 
