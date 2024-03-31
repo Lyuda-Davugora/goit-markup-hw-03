@@ -135,8 +135,12 @@ color: #434455;
 align-items: center;
 }
 
+.header-address-item 1 {
+margin-right: 40px;
+}
+
 .header-address-item 2 {
-margin-right: 0 
+margin-right: 0;
 }
 
 
