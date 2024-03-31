@@ -359,9 +359,13 @@ border: initial;
 
 /* Footer */
 .footer-page {
+display: inline-block;
 background: #2e2f42;
 
 width: 1440px;
+
+padding: 100px 0;
+margin-bottom: 16px; 
 }
 
 .footer-logo {
