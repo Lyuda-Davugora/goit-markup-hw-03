@@ -120,7 +120,8 @@ gap: 40px;
 padding-left: 76px;
 padding-right: 332px;
 align-items: center;
-
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .header-address-item {
@@ -133,6 +134,11 @@ letter-spacing: 0.02em;
 color: #434455;
 align-items: center;
 }
+
+.header-address-item 2 {
+margin-right: 0 
+}
+
 
 .header-address-item:hover,
 .header-address-item:focus {
