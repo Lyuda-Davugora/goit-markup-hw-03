@@ -32,7 +32,6 @@ button {
 }
 
 header {
-display: flex;
 padding-top: 24px;
 padding-bottom: 24px;
 }
@@ -56,6 +55,7 @@ margin: 0 auto;
 /* header */
 .container header {
 display: flex;
+align-items: center;
 }
 
 .header-main {
@@ -114,10 +114,12 @@ color: #404bbf;
 .container-header-one
 {
 display: flex;
+align-items: center;
 }
 
 .header-item {
 display: flex;
+align-items: center;
 color: #2e2f42;
 padding: 24px 0;
 }
@@ -145,7 +147,7 @@ display: flex;
 
 .header-address-item {
 display: flex;
-  
+align-items: center;
 margin-right: 40px;
   
 font-size: 16px;
@@ -160,15 +162,11 @@ color: #404bbf;
 }
 
 .header-address-item-one {
-display: flex;
-  
 gap: 40px;
 margin-right: 40px;
-
 }
 
 .header-address-item-two {
-display: flex;
 margin-right: 0;
 }
 
