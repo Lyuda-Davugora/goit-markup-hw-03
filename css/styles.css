@@ -58,6 +58,18 @@ display: flex;
 flex-grow: 3;
 justify-content: space-between;
 align-items: center;
+border-bottom: 1px solid #e7e9fc;
+}
+
+.header-menu {
+display: flex;
+align-items: center;
+  
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 
 .header-name-logo {
@@ -71,7 +83,6 @@ text-transform: uppercase;
 color: #4d5ae5;
 display: flex;
 align-items: center;
-border-bottom: 1px solid #e7e9fc;
 margin-right: 76px 
 }
 
@@ -85,16 +96,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
 display: flex; 
-}
-
-.header-menu {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;
-
-display: flex;
 }
 
 .header-menu:hover,
