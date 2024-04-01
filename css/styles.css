@@ -33,7 +33,6 @@ button {
 
 header {
 display: flex;
-align-items: center;
 padding-top: 24px;
 padding-bottom: 24px;
 }
@@ -61,7 +60,6 @@ display: flex;
 
 .header-main {
 display: flex;
-align-items: center;
   
 flex-grow: 3;
 justify-content: space-between;
@@ -81,7 +79,6 @@ color: #2E2F42;
 
 .header-name-logo {
   display: flex;
-align-items: center;
   
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -96,7 +93,6 @@ margin-right: 76px
 
 .logo-name-stu {
 display: flex;
-align-items: center;
   
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -115,7 +111,16 @@ color: #404bbf;
 .container-header-one
 {
 display: flex;
+}
+
+.header-menu-nav {
+display: flex;
 align-items: center;
+flex-grow: 1;
+gap: 40px;
+
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .header-item {
@@ -131,16 +136,6 @@ margin-right: 40px;
 color: #404bbf;
 }
 
-.header-menu-nav {
-display: flex;
-align-items: center;
-flex-grow: 1;
-gap: 40px;
-
-padding-top: 24px;
-padding-bottom: 24px;
-}
-
 .header-address-menu {
 display: flex;
   gap: 40px;
@@ -148,8 +143,7 @@ display: flex;
 
 .header-address-item {
 display: flex;
-align-items: center;
- 
+  
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
