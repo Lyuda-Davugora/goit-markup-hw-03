@@ -53,6 +53,10 @@ margin: 0 auto;
 
 
 /* header */
+.container header {
+display: flex;
+}
+
 .header-main {
 display: flex;
 align-items: center;
@@ -107,6 +111,7 @@ color: #404bbf;
 }
 
 .header-item {
+display: flex;
 color: #2e2f42;
 padding: 24px 0;
 }
@@ -126,6 +131,12 @@ padding-right: 332px;
 
 padding-top: 24px;
 padding-bottom: 24px;
+}
+
+.header-address-menu {
+display: flex;
+align-items: center;
+gap: 40px;
 }
 
 .header-address-item {
