@@ -222,8 +222,9 @@ gap: 24px;
 }
 
 .feature-item {
+display: flex;
 padding-left: 0;
-width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .feature-subtitle {
