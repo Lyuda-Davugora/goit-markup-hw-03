@@ -221,7 +221,7 @@ gap: 24px;
 }
 
 .feature-item {
-width: calc((100% - 3 * 24px) / 4); 
+flex-basis: calc((100% - 3 * 24px)/ 4);
 }
 
 .feature-subtitle {
