@@ -153,12 +153,11 @@ margin-right: 0;
 /* main */
 /* section-1 */
 .page {
-padding-bottom: 120px;
+padding: 188px 0;
 }
 
 .page-wrap {
 background: #2e2f42;
-padding: 188px 0;
 }
 
 .page-title {
@@ -231,7 +230,7 @@ gap: 24px;
 }
 
 .feature-item {
-width: calc((100% - 48px) / 3);
+flex-basis: calc((100% - 72px) / 4));
 }
 
 .feature-item:last-child {
