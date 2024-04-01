@@ -196,16 +196,11 @@ background: #4d5ae5;
 
 min-width: 169px;
 height: 56px;
-
-border: none; 
+border: none;
 border-radius: 4px; 
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 10px;
-margin: 0 auto;
-
 cursor: pointer;
+
+margin: 0 auto;
 }
 
 .page-button:hover,
