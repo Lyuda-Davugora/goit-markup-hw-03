@@ -55,6 +55,10 @@ margin: 0 auto;
 
 
 /* header */
+container iten-class {
+display: flex;
+}
+
 .header-main {
 display: flex;
 align-items: center;
