@@ -242,9 +242,9 @@ color: #434455;
 /* section-3 Our Team*/
 .team {
 display: flex;
-background: #f4f4fd;
-padding-top: 120px;
-padding-bottom: 120px;
+padding: 120px 0 120px 0;
+
+  background: #f4f4fd;
 }
 
 .team-name {
@@ -312,9 +312,6 @@ text-align: center;
 
 /* section-4 Our Portfolio */
 .portfolio-main {
-display: flex;
-padding-top: 120px;
-padding-bottom: 120px;
 margin-bottom: 72px;
   
 display: flex;
@@ -377,7 +374,7 @@ border: initial;
 display: inline-block;
 background: #2e2f42;
 
-max-width: 1440px;
+max-width: 1128px;
 width: 100%;
   
 padding: 100px 0;
@@ -386,8 +383,6 @@ margin-bottom: 16px;
 
 .footer-container {
 width: 264px;
-padding-left: 156px;
-padding-right: 1020px;
 }
 
 .footer-logo {
