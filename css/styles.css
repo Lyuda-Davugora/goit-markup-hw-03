@@ -162,7 +162,16 @@ color: #434455;
 color: #404bbf;
 }
 
-.header-address-item:last-child {
+.header-address-item-one {
+display: flex;
+  
+gap: 40px;
+margin-right: 40px;
+
+}
+
+.header-address-item-two {
+display: flex;
 margin-right: 0;
 }
 
