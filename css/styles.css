@@ -190,9 +190,11 @@ background-color: #404BBF;
 
 /* section-2 */
 .feature {
-display: flex;
-padding-top: 120px;
-padding-bottom: 120px;
+padding: 120px 0;
+}
+
+.feature-item {
+width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -214,12 +216,6 @@ display: flex;
 padding-left: 24px;
 padding-right: 24px;
 gap: 24px; 
-}
-
-.feature-item {
-display: flex;
-padding-left: 0;
-flex-basis: calc((100% - 72px) / 4);
 }
 
 .feature-subtitle {
