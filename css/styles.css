@@ -274,20 +274,19 @@ margin-bottom: 72px;
 .team-title {
 display: flex;
 gap: 24px; 
-flex-wrap: wrap;
 }    
 
 .team-page {
-display: flex;
-
 background: #fff;
+
+display: flex;
 margin-bottom: 0;
+border-radius: 0px 0px 4px 4px; 
 }
 
 .team-page-one {
 display: flex;
 width: calc((100% - 3*24px)/4);
-border-radius: 0px 0px 4px 4px; 
 }
 
 .name-worker {
