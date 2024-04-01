@@ -74,7 +74,6 @@ color: #2E2F42;
 }
 
 .header-name-logo {
-display: flex; 
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -95,8 +94,7 @@ font-size: 18px;
 line-height: 1.16;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2e2f42;
-display: flex; 
+color: #2e2f42; 
 }
 
 .header-menu:hover,
@@ -115,24 +113,25 @@ color: #404bbf;
 
 .header-menu-nav {
 display: flex;
+align-items: center;
 flex-grow: 1;
 gap: 40px;
 padding-left: 76px;
 padding-right: 332px;
-align-items: center;
+
 padding-top: 24px;
 padding-bottom: 24px;
 }
 
 .header-address-item {
 display: flex;
+align-items: center;
 justify-content: flex-end;
 gap: 40px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-align-items: center;
 margin-right: 40px;
 }
 
