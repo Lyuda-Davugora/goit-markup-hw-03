@@ -250,6 +250,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
+  margin: 0 auto;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
@@ -272,11 +273,6 @@ width: calc((100% - 3 * 24px) / 4);
 }
 
 .page-li {
-text-align: center;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-
 border-radius: 0 0 4px 4px;
 padding: 0px 0px 32px 0px;
 width: 264px;
@@ -284,11 +280,17 @@ height: 380px;
 
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: #fff;
+
+    text-align: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
 
 .name-worker {
 padding: 32px 0;
-text-align: center; 
+
+ margin: 0 auto
 }
 
 .team-page-last {
@@ -303,7 +305,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-
 
 display: flex;
 text-align: center;
