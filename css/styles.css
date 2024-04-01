@@ -57,13 +57,15 @@ margin: 0 auto;
 border-bottom: 1px solid #e7e9fc;
 }
 
-.header-conteiner {
+.header-container {
 display: flex;
 align-items: center;
 }
 
 .header-menu {
   display: flex;
+  align-items: center;
+  
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
