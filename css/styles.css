@@ -215,9 +215,11 @@ overflow: hidden;
 
 .feature-list {
 display: flex;
-padding-left: 24px;
-padding-right: 24px;
 gap: 24px; 
+max-width: 1128px;
+wight: 100%;
+  flex-shrink:0;
+
 }
 
 .feature-subtitle {
@@ -226,8 +228,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-  
-display: flex;  
+   
 margin-bottom: 8px; 
 }
 
