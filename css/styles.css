@@ -102,6 +102,7 @@ color: #404bbf;
 }
 
 .header-menu-nav {
+display: flex; 
 align-items: center;
 flex-grow: 1;
 gap: 40px;
@@ -123,6 +124,7 @@ color: #404bbf;
 }
 
 .header-address-menu {
+  display: flex; 
   gap: 40px;
 }
 
