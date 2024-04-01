@@ -110,6 +110,11 @@ color: #2e2f42;
 color: #404bbf;
 }
 
+.container-header-one
+{
+display: flex;
+}
+
 .header-item {
 display: flex;
 color: #2e2f42;
