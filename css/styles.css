@@ -377,8 +377,9 @@ border: initial;
 display: inline-block;
 background: #2e2f42;
 
-width: 1440px;
-
+max-width: 1440px;
+width: 100%;
+  
 padding: 100px 0;
 margin-bottom: 16px; 
 }
