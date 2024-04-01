@@ -55,7 +55,7 @@ margin: 0 auto;
 
 
 /* header */
-container .iten-class {
+.header-iten-class {
 display: flex;
 }
 
