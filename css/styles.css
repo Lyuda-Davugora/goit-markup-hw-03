@@ -226,7 +226,6 @@ overflow: hidden;
 display: flex;
 padding-left: 24px;
 padding-right: 24px;
-display: flex;
 gap: 24px; 
 }
 
@@ -237,17 +236,12 @@ width: calc((100% - 72px) / 4);
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.feature-item:last-child {
-margin-right: 0;
-}
-
 .feature-subtitle {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-margin-bottom: 8px;
 }
 
 .feature-item-title {
